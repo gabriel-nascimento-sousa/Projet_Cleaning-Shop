@@ -1,0 +1,102 @@
+/* geral */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* cabeçalho */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #43072C;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    position: fixed;
+    top:0px;
+    z-index: 1;
+}
+/* botao de menu */
+.Menu{
+    font-size: 25px;
+    margin: 5px;
+}
+/* barra de navegação */
+nav{
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: width 0.3s;
+    background-color: #43072C;
+}
+nav a{
+    display: block;
+    color: white;
+    font-size: 25px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+nav a:hover{
+    color: white;
+    background-color: #412141;
+}
+ul,li{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+h1{
+    margin: 10px;
+    color: aliceblue;
+}
+/* corpo */
+body{
+    background-image: linear-gradient(45deg,#412141,#400428); 
+    background-size: 100% auto;
+    background-repeat: no-repeat;   
+}
+main{
+    height: 100vh;
+    margin-top: 100px;
+}
+.imagem{
+    background-color: white;
+}
+.rodape{
+    background-color: rgb(39, 37, 37);
+    color: aliceblue;
+    text-align: center;
+}
+h6{
+    font-size: 16px;
+}
+.lista{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.img{
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+p{
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    text-align: center;
+}
+li a:hover{
+    color: #ff99ff;
+}

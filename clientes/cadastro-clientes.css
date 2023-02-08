@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header h1{
+    color: #E6E6E6;
+    padding: 20px;
+}
+.nav a{
+    color: #400428;
+    text-decoration: none;
+}
+body{
+    background-image: linear-gradient(45deg,#663366,#400428); 
+    height: 100vh;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 30px;
+    box-shadow: 10px 10px 20px;
+    color: #400428;
+}
+.fomulario{
+    margin-right: 35px;
+    padding: 30px;
+}
+input{
+    padding: 7px;
+    margin: 2px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: #E6E6E6;
+}
+.imagem{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+img{
+    padding-bottom: 0;
+}
+a:hover{
+    color: red;
+}

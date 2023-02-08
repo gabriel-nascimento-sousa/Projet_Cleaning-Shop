@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastrar Produto</title>
+    <link rel="stylesheet" href="cadastro-produtos.css">
+</head>
+<body>
+    <header>
+        <h1>Clean Shop</h1>
+    </header>
+    <div class="main">
+        <div class="conteudo">
+            
+            <form action="lista-de-produtos.php" method='post'>
+                <div class="header">
+                    <p><a href="../home/home.html">Home</a></p>
+                    <p>/</p>
+                    <p><a href="../produtos/lista-de-produtos.php">Produtos</a> </p>
+                    <p>/</p>
+                    <p>Cadastrar</p>
+                </div>
+                <h1>Cadastro</h1>
+                <input type="text" name="nome" id="nome" placeholder="nome" autocomplete="off" required><br>
+                <input type="number" name="valor" placeholder="valor" autocomplete="off" required><br>
+                <input type="hidden" name="id">
+                <input type="submit" name="cadastrar" value="Cadastrar">
+                </form>
+        </div>
+        <div class="imagem">
+            <img height="400px" width="300px" src="../imagens/undraw_no_data_re_kwbl.svg" alt="processando">
+        </div>
+    </div>
+</body>
+</html>

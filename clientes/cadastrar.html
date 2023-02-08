@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro-clientes.css">
+    <title>Cadastre-se</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Clean Shop</h1>
+    </header>
+    <main>
+        <div class="box">
+            <div class="fomulario">
+                <div class="nav">
+                    <a href="../home/home.html">Home</a> /
+                    <a href="../clientes/lista-de-clientes.php">Clientes</a> /
+                    Cadastrar
+                </div>
+                <form action="lista-de-clientes.php" method="post">
+                    <h1>Cadastro de clientes</h1>
+                    <input type="text" name="nome" placeholder="nome" autocomplete="off" required><br>
+                    <input type="text" name="cidade" placeholder="cidade" autocomplete="off" required><br>
+                    <input type="number" name="cep" placeholder="cep" autocomplete="off"required><br>
+                    <input type="text" name="rua" placeholder="rua" autocomplete="off"required><br>
+                    <input type="number" name="numero" placeholder="numero" autocomplete="off" required><br>
+                    <input type="number" name="telefone" placeholder="telefone" autocomplete="off" required><br>
+                    <input type="hidden" name="id" >
+                    <input type="submit" name="cadastrar">
+                </form>
+            </div>
+            <div class="imagem">
+                <img width="400px" height="300px" src="..//imagens/undraw_no_data_re_kwbl.svg" alt="">
+            </div> 
+        </div>
+    </main>
+</body>
+</html>
